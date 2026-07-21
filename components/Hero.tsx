@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-  <section className="relative min-h-screen">
+  <section id="hero" className="relative min-h-screen">
 
     <div  className="text-center">
 
