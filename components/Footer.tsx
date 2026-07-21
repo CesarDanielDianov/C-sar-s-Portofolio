@@ -1,10 +1,23 @@
 export default function Footer() {
   return (
-    <footer className=" px-10 py-8 text-black">
-      <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-        <p className="text-2xl">
+    <footer className=" px-8 py-6 text-black fo">
+      
+      <div className="flex justify-between">
+
+        <p className="text-1xl">
           © {new Date().getFullYear()} César Dianov — All rights reserved.
         </p>
+
+        <div className="flex gap-6">
+          <a href="https://github.com/CesarDanielDianov" >
+            GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/c%C3%A9sar-dianov-91b3993a0/" >
+            LinkedIn
+          </a>
+        </div>
+
       </div>
     </footer>
   );
