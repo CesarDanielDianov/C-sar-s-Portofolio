@@ -17,8 +17,8 @@ export default function Hero() {
       <Image  className="mx-auto mt-10"
         src="/cesar1.png"
         alt="nome do cesar"
-        width={200}
-        height={200}
+        width={300}
+        height={300}
       />
 
       <p className="mx-auto mt-12 max-w-3xl px-4 text-left text-xl leading-relaxed"> 
