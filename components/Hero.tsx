@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-  <section id="hero" className="relative min-h-screen">
+  <section className="relative min-h-screen">
 
     <div  className="text-center">
 
-      <h1 className="mt-50 text-7xl font-bold">
+      <h1 className="mt-20 text-7xl font-bold">
          *César Dianov*
       </h1>
 
@@ -26,7 +26,7 @@ export default function Hero() {
         Through academic and personal projects, I have gained experience working with different programming languages, technologies, and development tools. I enjoy learning new concepts, building practical solutions, and improving both my technical and teamwork skills.
       </p>
 
-      <p className="mx-auto max-w-3xl px-4 text-left text-xl leading-relaxed">
+      <p className="mx-auto mt-3 mb-20 max-w-3xl px-4 text-left text-xl leading-relaxed">
         I am currently looking for opportunities that allow me to apply what I have learned, gain professional experience, and continue growing as a software engineer.
       </p>
 

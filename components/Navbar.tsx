@@ -2,24 +2,25 @@ import Link from "next/link";
 
 export default function Navbar(){
     return(
-        <header>
-            <nav className="flex justify-center gap-30 py-6">
-                <Link href="/" className="text-3xl font-bold text-black">
-                    Home
-                </Link>
 
-                <Link href="/work" className="text-3xl font-bold text-black">
-                    Work
-                </Link>
+        <nav className="flex justify-center gap-25 py-6 bg-gray-500">
 
-                <Link href="/cv" className="text-3xl font-bold text-black">
-                    Cv
-                </Link>
+            <Link href="/" className="text-3xl font-bold text-black">
+                Home
+            </Link>
 
-                <Link href="/contacts" className="text-3xl font-bold text-black">
-                    Contacts
-                </Link>                
-            </nav>
-        </header>
+            <Link href="/work" className="text-3xl font-bold text-black">
+                Projects
+            </Link>
+
+            <Link href="/cv" className="text-3xl font-bold text-black">
+                Cv
+            </Link>
+
+            <Link href="/contacts" className="text-3xl font-bold text-black">
+                Contacts
+            </Link>                
+        </nav>
+
     );
 }
