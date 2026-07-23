@@ -10,15 +10,20 @@ export default function Hero() {
          *César Dianov*
       </h1>
 
-      <p className="mt-4 text-2x1 font-bold">
-        Computer Science and Engineering Student @ IST
-      </p>
+    <p className="flex items-center pl-9 font-bold h-10 rounded-3xl border gap-3 w-120 mx-auto mt-6 mb-10 text-gray-600">
+      Computer Science and Engineering Student @ IST
+      
+      <span className="relative flex h-3 w-3">
+        <span className="absolute flex h-3 w-3 animate-ping rounded-full bg-green-400 opacity-75"></span>
+        <span className="relative flex h-3 w-3 rounded-full bg-green-500"></span>
+      </span>
+    </p>
 
-      <Image  className="mx-auto mt-10"
+      <Image  className="mx-auto mt-10 rounded-full shadow-2xl shadow-gray-600"
         src="/cesar1.png"
         alt="nome do cesar"
-        width={300}
-        height={300}
+        width={240}
+        height={240}
       />
 
       <p className="mx-auto mt-12 max-w-3xl px-4 text-left text-xl leading-relaxed"> 

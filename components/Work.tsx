@@ -4,7 +4,7 @@ export default function work(){
     return(
         <section className="relative min-h-screen">
             <p className="mt-20 text-center text-5xl ">
-                *My Projects*
+                *Projects*
             </p>
             
             <div className="grid grid-cols-2 gap-6 max-w-3xl mx-auto mt-10 mb-20">

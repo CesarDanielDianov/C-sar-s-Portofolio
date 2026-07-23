@@ -1,26 +1,22 @@
 import Link from "next/link";
+import Image from "next/image";
 
-export default function Navbar(){
-    return(
+export default function Navbar() {
+  return (
+    <nav className="flex justify-center py-6">
 
-        <nav className="flex justify-center gap-25 py-6 bg-gray-500">
+      <div></div>
 
-            <Link href="/" className="text-3xl font-bold text-black">
-                Home
-            </Link>
+      <div className="flex justify-center text-xl font-bold text-black gap-25">
+        <Link href="/">HOME</Link>
 
-            <Link href="/work" className="text-3xl font-bold text-black">
-                Projects
-            </Link>
+        <Link href="/work">PROJECTS</Link>
 
-            <Link href="/cv" className="text-3xl font-bold text-black">
-                Cv
-            </Link>
+        <Link href="/cv">CV</Link>
 
-            <Link href="/contacts" className="text-3xl font-bold text-black">
-                Contacts
-            </Link>                
-        </nav>
+        <Link href="/contacts">CONTACTS</Link>
+      </div>
 
-    );
+    </nav>
+  );
 }
