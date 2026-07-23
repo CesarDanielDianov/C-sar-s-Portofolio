@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className=" px-8 py-6 text-black bg-gray-500">
+    <footer className=" px-8 py-6 text-black ">
       
       <div className="flex justify-between">
 
